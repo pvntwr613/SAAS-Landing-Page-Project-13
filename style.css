@@ -1,0 +1,304 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+.heading-section{
+    background-color: #7131cc;
+    align-items: center;
+    color: #fff;
+  
+}
+.heading-section p{
+  
+   font-weight: 400;
+    color: #fff;
+  
+}
+
+.nav-logo{
+   
+    margin-left: 70px;
+    
+}
+nav{
+    align-items: center;
+    display: flex;
+    padding-top: 40px;
+}
+.nav-items{
+    display: flex;
+    margin-left: 400px;
+    
+   
+}
+
+.nav-btn{
+    padding: 10px 20px;
+    background-color: #1abdef;
+    border: none;
+    color: #fff;
+    text-shadow: #1abdef;
+    font-size: 15px;
+
+}
+.nav-item{
+    list-style: none;
+    margin-right: 100px;
+    font-weight: 300;   
+}
+.heading-page{
+    margin-left: 70px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.heading-image{
+    max-width: 60%;
+    height: auto;
+    margin-top: -100px;
+ 
+}
+h1{
+    font-size: 80px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.hero-section{
+    display: flex;
+    align-items: center;
+   
+
+}
+.hero-image{
+    max-width: 60%;
+    height: auto;
+    
+
+}
+.hero-content{
+    max-width: 30%;
+    height: auto;
+  
+}
+h2{
+    font-size: 35px;
+    font-weight: 900;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.content-extra{
+    
+    
+    margin: 30px auto;
+    line-height: 40px;
+}
+.box{
+   display: flex;
+   align-items: center;
+   
+}
+h3{
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+p{
+    font-weight: 700;
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.card-img{
+    width: 50px;
+ margin-top: 15px;
+  margin-left: 35px;
+  fill: green;
+   
+}
+.img-round{
+    margin-top: 40px;
+    background-color: #faeaeb;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%; 
+    margin-left: 50px;  
+}
+.img-round2{
+    margin-top: 40px;
+    background-color: #fbf0ee;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%; 
+    margin-left: 50px;  
+}
+.img-round3{
+    margin-top: 40px;
+    background-color: #e9f5f7;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;  
+    margin-left: 50px; 
+}
+.img-round4{
+    margin-top: 40px;
+    background-color: #f3e7f4;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%; 
+    margin-left: 50px; 
+}
+
+
+.card{
+    width: 250px;
+    height: 290px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 10px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 10px 0 5px -2px #888;
+    border: #d5dfe1;
+}
+.service-heading{
+    max-width: 25%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.service-heading h2{
+    font-size: 35px;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card-content:hover {
+    background-color: #7131cc;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.card-content{
+    width: 250px;
+   height: auto;
+   height: 200px;
+  margin-top: 30px;
+}
+@media (max-width:480px){
+    .nav-logo{
+   
+        margin-left: 20px;
+        
+    }
+    nav{
+        align-items: center;
+        display: flex;
+        padding-top: 10px;
+         flex-wrap: wrap;
+    }
+    .nav-items{
+        display: flex;
+        margin-left: 10px;  
+       
+    }
+    .nav-item{
+        list-style: none;
+        margin-right: 10px;
+        font-weight: 300;   
+    }
+    .nav-btn{
+        padding: 10px 20px;
+        background-color: #1abdef;
+        border: none;
+        color: #fff;
+        text-shadow: #1abdef;
+        font-size: 15px;
+        margin-left: 150px;
+    
+    }
+
+    .heading-page{
+    margin-left: 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.heading-image{
+    max-width: 70%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 50px;
+ 
+}
+h1{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+
+}
+
+.hero-image{
+    max-width: 80%;
+    height: auto;
+    
+}
+.hero-content{
+    max-width: 70%;
+    height: auto;
+  
+}
+h2{
+    font-size: 15px;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.service-heading{
+    max-width: 65%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+    
+}
